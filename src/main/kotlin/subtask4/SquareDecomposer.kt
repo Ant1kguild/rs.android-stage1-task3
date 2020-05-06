@@ -20,7 +20,6 @@ class SquareDecomposer {
             if (value >= i) value = i - 1
 
             decomposer(residue, value)?.let { return it.plus(i) }
-
         }
         return null
     }
